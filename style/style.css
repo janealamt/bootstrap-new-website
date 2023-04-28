@@ -1,0 +1,49 @@
+.navmenu-bar{
+    z-index:999;
+   
+}
+
+
+.main-menu > li{
+    position: relative;
+    /* margin: 0 5px; */
+}
+
+hr:not([size]){
+    height: 2px;
+}
+.hr-line{
+    
+    background-color: white;
+    
+   opacity: 0;
+   visibility: none;
+   transform: scaleX(0);
+    transform-origin: 0;
+    transition: .5s;
+    transform-origin: center;
+    position: absolute;
+   
+    width:100%;
+    height: 3px;
+    color:white;
+    margin-top: -5px;
+       
+
+}
+
+@media screen and (max-width:991px) {
+    .hr-line{
+        width:60px;
+    }
+    
+}
+
+.main-menu >li:hover > .hr-line{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleX(1);
+    
+    
+}
+
