@@ -71,21 +71,30 @@ h1 h2 h3 h4 h5 h6 {
 p span{
     font-family: 'Open Sans', sans-serif; 
 }
-.good-p{
 
-margin-top: -600px;
-}
 
-@media screen and (max-width:1104px) {
-    .good-p{
-        margin-top:500px;
-}
+
 h2{
-    font-size: 42px;
-}
-
-}
-h2{
-    font-size: 72px; 
+    font-size: 52px; 
     font-weight: 700;
+}
+
+.slider-style{
+    margin-top: -250px;
+}
+
+@media screen and (max-width:991px) {
+    .navmenu-bar{
+        background-color:red;
+    }
+    .slider-style{
+        margin-top: 0px;
+    }
+    
+}
+@media screen and (max-width:950px) {
+    .navmenu-bar{
+        background-color:red;
+    }
+    
 }
