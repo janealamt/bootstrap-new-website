@@ -124,3 +124,21 @@ h2{
     transform: scale(1.2);
    
 }
+
+.new-icon-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height: 30px;
+    padding: 10px ;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 32px;
+    
+    
+}
+.new-icon-items-one {
+    font-size: 16px;
+    color: white;
+}
