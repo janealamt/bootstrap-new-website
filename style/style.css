@@ -98,3 +98,29 @@ h2{
     }
     
 }
+
+.view-button{
+    border-radius: 0;
+}
+
+.our-delicious{
+    font-family: 'Aguafina Script', cursive;
+    font-weight: 700;
+    font-size: 36px;
+   
+}
+.new-p-content{
+    text-align: justify;
+}
+.menu-items-food{
+    transform: scale(1);
+   transition: 1s;
+   transform-origin: center;
+   
+
+}
+
+.menu-items-food:hover{
+    transform: scale(1.2);
+   
+}
