@@ -1,3 +1,18 @@
+.nav-reservation-btn {
+    border:2px solid white;
+    font-weight: 600;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+
+.nav-reservation-btn:hover{
+    background-color: white;
+    color:black !important;
+    opacity: 1;
+}
+
+
+
 .navmenu-bar{
     z-index:999;
    
@@ -85,7 +100,7 @@ h2{
 
 @media screen and (max-width:991px) {
     .navmenu-bar{
-        background-color:red;
+        background-color:d#212529;
     }
     .slider-style{
         margin-top: 0px;
@@ -94,7 +109,7 @@ h2{
 }
 @media screen and (max-width:950px) {
     .navmenu-bar{
-        background-color:red;
+        background-color:#212529;
     }
     
 }
@@ -212,4 +227,17 @@ h2{
 }
 .unorder-item-list li:hover a{
     color: yellow;
+}
+
+.reservation-button-style{
+    
+    font-weight: 600;
+    border:2px solid white;
+    color: white;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.reservation-button-style:hover{
+    color:black;
+    background-color: white;
 }
