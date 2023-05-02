@@ -4,10 +4,10 @@
 } 
 
 .navbar-toggler-button{
-    box-shadow: 1px 1px 3px   white;
+    box-shadow: 1px 1px 5px   white;
 }
 .btn-close{
-transition: .5s ;
+transition: 1s ;
 }
 
 .btn-close:hover{
@@ -34,6 +34,7 @@ transition: .5s ;
 
 .navmenu-bar{
     z-index:999;
+  
    
 }
 
@@ -117,20 +118,36 @@ h2{
     margin-top: -250px;
 }
 
+.offcanvas-menu{
+    visibility: hidden;
+    display: none;
+}
+
 @media screen and (max-width:991px) {
     .navmenu-bar{
-        background-color:d#212529;
+        background-color:#212529;
+        position: fixed;
+        width: 100%;
+        
+        
+    }
+
+    .offcanvas-menu{
+        visibility: visible;
+        display:block;
     }
     .slider-style{
         margin-top: 0px;
     }
     
 }
+
+
 @media screen and (max-width:950px) {
-    .navmenu-bar{
+    /* .navmenu-bar{
         background-color:#212529;
     }
-    
+     */
 }
 
 .view-button{
