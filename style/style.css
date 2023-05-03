@@ -72,10 +72,6 @@ hr:not([size]){
 }
 
 
-   
-    
-    
-
 
 .main-menu >li:hover > .hr-line{
     visibility: visible;
@@ -297,6 +293,9 @@ p span{
         font-weight: 700;
     }
     
+    .slider-1-img{
+        height: auto;
+    }
 }
 
 
@@ -314,7 +313,5 @@ p span{
     .good-p{
         font-size: 14px;
     }
-    .slider-1-img{
-        height: auto;
-    }
+    
 }
