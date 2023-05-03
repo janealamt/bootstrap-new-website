@@ -1,7 +1,7 @@
 
 
 
-
+/* nav menu start */
 
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -85,6 +85,13 @@ hr:not([size]){
     
 }
 
+.offcanvas-menu{
+    visibility: hidden;
+    display: none;
+}
+
+/* carousel code start */
+
 .carousel-slide{
     margin-top:-95px;
 }
@@ -117,7 +124,6 @@ p span{
 }
 
 
-
 .carousel-caption h2{
     font-size: 52px; 
     font-weight: 700;
@@ -126,12 +132,9 @@ p span{
 
 
 
-.offcanvas-menu{
-    visibility: hidden;
-    display: none;
-}
 
 
+/* main content code start */
 
 .view-button{
     border-radius: 0;
@@ -209,6 +212,9 @@ p span{
     margin-top: -15px;
 }
 
+
+
+/* footer code start */
 .footer-image{
     width: 180px;
     margin-top: -150px;
@@ -307,5 +313,8 @@ p span{
     }
     .good-p{
         font-size: 14px;
+    }
+    .slider-1-img{
+        height: auto;
     }
 }
