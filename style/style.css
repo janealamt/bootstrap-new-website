@@ -1,4 +1,8 @@
 
+
+
+
+
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 } 
@@ -67,12 +71,11 @@ hr:not([size]){
 
 }
 
-@media screen and (max-width:991px) {
-    .hr-line{
-        width:60px;
-    }
+
+   
     
-}
+    
+
 
 .main-menu >li:hover > .hr-line{
     visibility: visible;
@@ -82,8 +85,14 @@ hr:not([size]){
     
 }
 
+.carousel-slide{
+    margin-top:-95px;
+}
+
 .slider-1-img{
-    filter: brightness(.7);
+
+    height: 100vh;
+    filter: brightness(.5);
     animation-name: zoomIn;
     animation-duration: 40s;
     animation-iteration-count: infinite;
@@ -109,46 +118,20 @@ p span{
 
 
 
-h2{
+.carousel-caption h2{
     font-size: 52px; 
     font-weight: 700;
+    text-transform: uppercase;
 }
 
-.slider-style{
-    margin-top: -250px;
-}
+
 
 .offcanvas-menu{
     visibility: hidden;
     display: none;
 }
 
-@media screen and (max-width:991px) {
-    .navmenu-bar{
-        background-color:#212529;
-        position: fixed;
-        width: 100%;
-        
-        
-    }
 
-    .offcanvas-menu{
-        visibility: visible;
-        display:block;
-    }
-    .slider-style{
-        margin-top: 0px;
-    }
-    
-}
-
-
-@media screen and (max-width:950px) {
-    /* .navmenu-bar{
-        background-color:#212529;
-    }
-     */
-}
 
 .view-button{
     border-radius: 0;
@@ -276,4 +259,53 @@ h2{
 .reservation-button-style:hover{
     color:black;
     background-color: white;
+}
+
+
+
+/* Responsive code start */
+
+@media screen and (max-width:991px) {
+    .navmenu-bar{
+        background-color:#212529;
+        position: fixed;
+        width: 100%;
+        
+        
+    }
+
+    .hr-line{
+        width:60px;
+    }
+
+    .offcanvas-menu{
+        visibility: visible;
+        display:block;
+    }
+   
+    .carousel-slide{
+        margin-top:0px;
+    }
+    .carousel-caption h2{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:600px){
+    .slider-1-img{
+        /* height:auto; */
+    }
+
+    .carousel-caption h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .good-p{
+        font-size: 14px;
+    }
 }
