@@ -1,830 +1,861 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-     <!-- bootstrap icon link here -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-     <!-- bootstrap css cdn  link here -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- bootstrap icon link here -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- bootstrap css cdn  link here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- css code here -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style/style.css">
 
 </head>
+
 <body>
 
 
-  <header>
-    <!-- nav menu code start -->
-    <nav class="navbar navbar-expand-lg   navmenu-bar " >
-        <div class="container">
-          <a class="navbar-brand me-auto  w-50" href="#"> <img class="w-50 img-fluid " src="images/nyus-deli-restaurant-logo.svg"> </a>
+    <header>
+        <!-- nav menu code start -->
+        <nav class="navbar navbar-expand-lg   navmenu-bar ">
+            <div class="container">
+                <a class="navbar-brand me-auto  w-50" href="#"> <img class="w-50 img-fluid " src="images/nyus-deli-restaurant-logo.svg"> </a>
 
-          
-          <button   class="navbar-toggler navbar-toggler-button  bg-dark " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" >
+
+                <button class="navbar-toggler navbar-toggler-button  bg-dark " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false">
             <span  class="navbar-toggler-icon  "></span>
           </button>
-               <!-- off canvas start -->
-               
+                <!-- off canvas start -->
 
-          <div class="offcanvas  offcanvas-menu offcanvas-end bg-dark  "  tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header">
-              <h5 id="offcanvasTopLabel">Offcanvas top</h5>
-                <button type="button" class="btn-close text-reset  bg-light rounded-circle" data-bs-dismiss="offcanvas" aria-label="Close "></button>
-              </div>
-              <div class="offcanvas-body text-light ms-5">
-                 <a href="#"> <img src="images/nyus-deli-restaurant-logo.svg" class="img-fluid w-50 "></a>
 
-                  <!-- off canvas menu -->
-                  <ul class="navbar-nav ms-auto mb-lg-0 me-3  main-menu my-3">
-                    <li class="nav-item">
-                      <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                      <hr class="hr-line">
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Products</a>
-                      <hr class="hr-line ">
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Contact us</a>
-                      <hr class="hr-line">
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="offcanvas  offcanvas-menu offcanvas-end bg-dark  " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+                        <button type="button" class="btn-close text-reset  bg-light rounded-circle" data-bs-dismiss="offcanvas" aria-label="Close "></button>
+                    </div>
+                    <div class="offcanvas-body text-light ms-5">
+                        <a href="#"> <img src="images/nyus-deli-restaurant-logo.svg" class="img-fluid w-50 "></a>
+
+                        <!-- off canvas menu -->
+                        <ul class="navbar-nav ms-auto mb-lg-0 me-3  main-menu my-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                <hr class="hr-line">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Products</a>
+                                <hr class="hr-line ">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Contact us</a>
+                                <hr class="hr-line">
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Menu
                       </a>
-                      <hr class="hr-line">
-                      <ul class="dropdown-menu bg-dark mt-3">
-                        <li><a class="dropdown-item text-light" href="#">Action</a></li>
-                        <li><a class="dropdown-item  text-light" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item  text-light" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                   
-                  </ul>
+                                <hr class="hr-line">
+                                <ul class="dropdown-menu bg-dark mt-3">
+                                    <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                                    <li><a class="dropdown-item  text-light" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item  text-light" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
 
-                  <button class="nav-reservation-btn  py-2 px-3 mb-5" >RESERVATION</button>
+                        </ul>
 
-                  <!-- off canvas menu end -->
+                        <button class="nav-reservation-btn  py-2 px-3 mb-5">RESERVATION</button>
 
-                  <!-- social share start -->
-                  <p >
-                    <a href="#" class="me-2"><i class="bi bi-facebook all-soicl-icon" ></i></a>
-                    <a href="#" class="mx-2" ><i class="bi bi-twitter all-soicl-icon"></i></a>
-                    <a href="#" class="mx-2"><i class="bi bi-instagram all-soicl-icon"></i></a>
-                   <a href="#" class="mx-2"><i class="bi bi-linkedin all-soicl-icon"></i></a>
-                    <a href="#" class="mx-2"><i class="bi bi-youtube all-soicl-icon"></i></a>
-                  </p>
-              </div>
-</div>
-               <!-- off canvas end -->
-          
-          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3  main-menu">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                <hr class="hr-line">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Products</a>
-                <hr class="hr-line ">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact us</a>
-                <hr class="hr-line">
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- off canvas menu end -->
+
+                        <!-- social share start -->
+                        <p>
+                            <a href="#" class="me-2"><i class="bi bi-facebook all-soicl-icon" ></i></a>
+                            <a href="#" class="mx-2"><i class="bi bi-twitter all-soicl-icon"></i></a>
+                            <a href="#" class="mx-2"><i class="bi bi-instagram all-soicl-icon"></i></a>
+                            <a href="#" class="mx-2"><i class="bi bi-linkedin all-soicl-icon"></i></a>
+                            <a href="#" class="mx-2"><i class="bi bi-youtube all-soicl-icon"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <!-- off canvas end -->
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3  main-menu">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            <hr class="hr-line">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Products</a>
+                            <hr class="hr-line ">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact us</a>
+                            <hr class="hr-line">
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Menu
                 </a>
-                <hr class="hr-line">
-                <ul class="dropdown-menu bg-dark mt-3">
-                  <li><a class="dropdown-item text-light" href="#">Action</a></li>
-                  <li><a class="dropdown-item  text-light" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item  text-light" href="#">Something else here</a></li>
-                </ul>
-              </li>
-             
-            </ul>
-            
-                <a href="#"><button class="nav-reservation-btn  py-2 px-3 " >RESERVATION</button></a>
-              
-            
-          </div>
-        </div>
-      </nav>
+                            <hr class="hr-line">
+                            <ul class="dropdown-menu bg-dark mt-3">
+                                <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                                <li><a class="dropdown-item  text-light" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item  text-light" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
 
-   
+                    </ul>
 
-       
+                    <a href="#"><button class="nav-reservation-btn  py-2 px-3 " >RESERVATION</button></a>
 
-        <div id="carouselExampleCaptions" class="carousel slide  carousel-slide carousel-fade "  data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/slider-1.jpg" class="d-block w-100 slider-1-img  " style="background-repeat: no-repeat; background-size: cover;" alt="...">
-                <div class="carousel-caption d-block px-md-5 ">
-                    <p class="good-p" >GOOD PLACE. GOOD FOOD.</p>
-                    <h2  >Good Place  In The City Of New York</h2>
-                    
-                    <a href="#"><button class="nav-reservation-btn  py-2 px-3 " >RESERVATION</button></a>
+
                 </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/slider-2.jpg" class="d-block w-100 slider-1-img" alt="...">
-                <div class="carousel-caption  d-block px-md-5">
-                    <p class="good-p " >GOOD PLACE. GOOD FOOD.</p>
-                    <h2 class="" >Good Place  In The City Of New York</h2>
-                    <a href="#"><button class="nav-reservation-btn  py-2 px-3 " >RESERVATION</button></a>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/slider-3.jpg" class="d-block w-100 slider-1-img" alt="...">
-                <div class="carousel-caption  d-block px-md-5">
-                    <p class="good-p" >GOOD PLACE. GOOD FOOD.</p>
-                    <h2  > Good Place  In The City Of New York</h2>
-                    <a href="#"><button class="nav-reservation-btn  py-2 px-3 " >RESERVATION</button></a>
-                </div>
-              </div>
             </div>
-            
-          </div>
-
-      </header>
-
-      <main>
-      <!-- first section start -->
-      <section class="container my-5">
-          <div class="row d-flex justify-content-between">
-              <div class="col-md-5" >
-
-                <h3 class="h3 fs-md-5 fs-sm-3">Discover The Good Atmosphere Of NYUS.</h3>
-                <p class="content" style="color: rgb(112, 111, 111);" >Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non. Leo ut id vel nec nisi odio nisi. Auctor egestas nibh augue enim, ornare blandit. Purus augue sagittis, risus phasellus egestas ipsum.</p>
-              </div>
-
-              <div class="col-md-5">
-                <img class="img-fluid w-100" src="images/cozy-place.jpg">
-                <h4 class="h4 fs-5 mt-3">Cozy Place</h4>
-                <p class="content" style="color: rgb(112, 111, 111);" >To make everyone entering the establishment feel at home and find their atmosphere</p>
-              </div>
-              <div class="col-md-5 mt-n5"  >
-                  <img src="images/good-vibes.jpg" class="w-100 img-fluid">
-                  <h4 class="h4 fs-5 mt-3">Good Vibes</h4>
-                <p class="content" style="color: rgb(112, 111, 111);" >In total 650m² of hand-crafted decor, mix of styles and colors.</p>
-              </div>
-
-              <div class="col-md-5 mt-3 mb-5">
-                <img class="img-fluid w-100" src="images/relax-atmosphere.jpg">
-                <h4 class="h4 fs-5 mt-3">Cozy Place</h4>
-                <p class="content" style="color: rgb(112, 111, 111);" >To make everyone entering the establishment feel at home and find their atmosphere</p>
-              </div>
-
-          </div>
-
-      </section>
-
-      <section class="bg-dark mt-5 pb-5">
-        <div class="container " >
-        <img src="images/bg-image-cake-and-coffee.png" style="margin-top: -130px;" class="w-50 img-fluid">
-      
-      <p class="content fs-18 text-white text-center">OUR MENU</p>
-      <div class="row d-flex text-center align-items-center justify-content-center">
-
-        <div class="col-md-4">
-          <hr class="bg-white">
-        </div>
-        <div class="col-md-3">
-          <h3 class="h3 fs-1 text-white">Get Relax. Eat.</h3>
-        </div>
-        <div class="col-md-4">
-          <hr class="bg-white">
-        </div>
-
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-7 text-center">
-      <p class="content text-white text-center" >Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non.</p>
-    </div>
-    </div>
+        </nav>
 
 
-    <div class="row justify-content-between my-5 pb-5">
 
-      <div class="col-md-5 mt-3  " style="border-bottom: 1px dashed white; ">
-        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
-        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
-      </div>
-      <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
-        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
-        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
-      </div>
-      <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
-        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
-        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
-      </div>
-      <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
-        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
-        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
-      </div>
-      <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
-        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
-        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
-      </div>
-      <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
-        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
-        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
-      </div>
-      <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
-        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
-        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
-      </div>
-      <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
-        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
-        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
-      </div>
-    </div>
 
-     <div class="row d-flex text-center align-items-center justify-content-center pb-5">
 
-        <div class="col-md-4">
-          <hr class="bg-white">
-        </div>
-        <div class="col-md-3">
-          <button class="btn btn-outline-light  view-button">VIEW ALL MENU</button>
-          
-        </div>
-        <div class="col-md-4">
-          <hr class="bg-white">
-        </div>
+        <div id="carouselExampleCaptions" class="carousel slide  carousel-slide carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slider-1.jpg" class="d-block w-100 slider-1-img  " style="background-repeat: no-repeat; background-size: cover;" alt="...">
+                    <div class="carousel-caption d-block px-md-5 ">
+                        <p class="good-p">GOOD PLACE. GOOD FOOD.</p>
+                        <h2>Good Place In The City Of New York</h2>
 
-      </div>
-    </div>
-
-      </section>
-
-      <!-- new section menu item -->
-      
-      <section class="py-5" style="background-color: #E9ECEF;">
-        <div class="container my-5">
-
-          <div class="row justify-content-between ">
-
-            <div class="col-md-5">
-              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/fine-dining-food.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/having-lunch-together.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/sort-of-food-on-the-table.jpg" class="d-block w-100" alt="...">
-                  </div>
+                        <a href="#"><button class="nav-reservation-btn  py-2 px-3 " >RESERVATION</button></a>
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <div class="carousel-item">
+                    <img src="images/slider-2.jpg" class="d-block w-100 slider-1-img" alt="...">
+                    <div class="carousel-caption  d-block px-md-5">
+                        <p class="good-p ">GOOD PLACE. GOOD FOOD.</p>
+                        <h2 class="">Good Place In The City Of New York</h2>
+                        <a href="#"><button class="nav-reservation-btn  py-2 px-3 " >RESERVATION</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slider-3.jpg" class="d-block w-100 slider-1-img" alt="...">
+                    <div class="carousel-caption  d-block px-md-5">
+                        <p class="good-p">GOOD PLACE. GOOD FOOD.</p>
+                        <h2> Good Place In The City Of New York</h2>
+                        <a href="#"><button class="nav-reservation-btn  py-2 px-3 " >RESERVATION</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <!-- first section start -->
+        <section class="container my-5">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-5">
+
+                    <h3 class="h3 fs-md-5 fs-sm-3">Discover The Good Atmosphere Of NYUS.</h3>
+                    <p class="content" style="color: rgb(112, 111, 111);">Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non. Leo ut id vel nec nisi odio nisi. Auctor egestas nibh augue enim, ornare blandit. Purus
+                        augue sagittis, risus phasellus egestas ipsum.</p>
+                </div>
+
+                <div class="col-md-5">
+                    <img class="img-fluid w-100" src="images/cozy-place.jpg">
+                    <h4 class="h4 fs-5 mt-3">Cozy Place</h4>
+                    <p class="content" style="color: rgb(112, 111, 111);">To make everyone entering the establishment feel at home and find their atmosphere</p>
+                </div>
+                <div class="col-md-5 mt-n5">
+                    <img src="images/good-vibes.jpg" class="w-100 img-fluid">
+                    <h4 class="h4 fs-5 mt-3">Good Vibes</h4>
+                    <p class="content" style="color: rgb(112, 111, 111);">In total 650m² of hand-crafted decor, mix of styles and colors.</p>
+                </div>
+
+                <div class="col-md-5 mt-3 mb-5">
+                    <img class="img-fluid w-100" src="images/relax-atmosphere.jpg">
+                    <h4 class="h4 fs-5 mt-3">Cozy Place</h4>
+                    <p class="content" style="color: rgb(112, 111, 111);">To make everyone entering the establishment feel at home and find their atmosphere</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="bg-dark mt-5 pb-5">
+            <div class="container ">
+                <img src="images/bg-image-cake-and-coffee.png" style="margin-top: -130px;" class="w-50 img-fluid">
+
+                <p class="content fs-18 text-white text-center">OUR MENU</p>
+                <div class="row d-flex text-center align-items-center justify-content-center">
+
+                    <div class="col-md-4">
+                        <hr class="bg-white">
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="h3 fs-1 text-white">Get Relax. Eat.</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="bg-white">
+                    </div>
+
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-7 text-center">
+                        <p class="content text-white text-center">Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non.</p>
+                    </div>
+                </div>
+
+
+                <div class="row justify-content-between my-5 pb-5">
+
+                    <div class="col-md-5 mt-3  " style="border-bottom: 1px dashed white; ">
+                        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
+                        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
+                    </div>
+                    <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
+                        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
+                        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
+                    </div>
+                    <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
+                        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
+                        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
+                    </div>
+                    <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
+                        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
+                        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
+                    </div>
+                    <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
+                        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
+                        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
+                    </div>
+                    <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
+                        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
+                        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
+                    </div>
+                    <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
+                        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
+                        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
+                    </div>
+                    <div class="col-md-5 mt-3 " style="border-bottom: 1px dashed white;">
+                        <h6 class="h6 text-white">LEMON AND GARLIC GREEN BEANS - 15.00</h6>
+                        <p class="content" style="color: rgb(172, 171, 171);">Lemon / Garlic / Beans</p>
+                    </div>
+                </div>
+
+                <div class="row d-flex text-center align-items-center justify-content-center pb-5">
+
+                    <div class="col-md-4">
+                        <hr class="bg-white">
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-outline-light  view-button">VIEW ALL MENU</button>
+
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="bg-white">
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- new section menu item -->
+
+        <section class="py-5" style="background-color: #E9ECEF;">
+            <div class="container my-5">
+
+                <div class="row justify-content-between ">
+
+                    <div class="col-md-5">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/fine-dining-food.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/having-lunch-together.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/sort-of-food-on-the-table.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
-              <h3 class="h3 text-warning fw-bolder my-3 text-center fs-1">Signature Menu</h3>
-              <p class="our-delicious text-dark text-center ">Our Delicious Story</p>
-              <p class="content  new-p-content" style="color: rgb(112, 111, 111);" >Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        </div>
+                        <h3 class="h3 text-warning fw-bolder my-3 text-center fs-1">Signature Menu</h3>
+                        <p class="our-delicious text-dark text-center ">Our Delicious Story</p>
+                        <p class="content  new-p-content" style="color: rgb(112, 111, 111);">Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non.It is a long established fact that a reader will be distracted by the readable content
+                            of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many
+                            desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-md-4  ">
+                                <div class="overflow-hidden mb-3"> <img src="images/pexels-samer-daboul-2233729-300x300.jpg " class="img-fluid w-100 menu-items-food "></div>
+                            </div>
+
+                            <div class="col-md-8">
+
+                                <div class="row d-flex justify-content-between ">
+
+                                    <div class="col-10">
+                                        <p class="h6 fw-bold">LAMB-BEEF KOFKA SKEWERS WITH TZATZIKI</p>
+                                        <span style="font-weight: 700;" class="text-decoration-line-through me-2">$25.00</span>
+                                        <span style="font-weight: 700;">$18.00</span>
+                                        <p class="content mt-2" style="color: rgb(112, 111, 111);">Preparing time: 15 min Delivery time: 30 min Lorem Ipsum is simply dummy text of the printing…</p>
+                                    </div>
+                                    <div class="col-2  ">
+                                        <div style="border-bottom: 2px dotted rgb(117, 115, 115);  margin-top: 30px;"></div>
+                                        <div style="margin-top: 80px;">
+                                            <a class="new-icon-items bg-warning" href="#"><i class="bi bi-cart-plus-fill new-icon-items-one "></i></a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-between mt-5">
+                            <div class="col-md-4  ">
+                                <div class="overflow-hidden mb-3"> <img src="images/pexels-samer-daboul-2233729-300x300.jpg " class="img-fluid w-100 menu-items-food "></div>
+                            </div>
+
+                            <div class="col-md-8">
+
+                                <div class="row d-flex justify-content-between ">
+
+                                    <div class="col-10">
+                                        <p class="h6 fw-bold">
+                                            OYSTERS GRILL (5 PIECES)</p>
+                                        <span style="font-weight: 700;" class="text-decoration-line-through me-2">$15.00</span>
+                                        <span style="font-weight: 700;">$10.00</span>
+                                        <p class="content mt-2" style="color: rgb(112, 111, 111);">Preparing time: 15 min Delivery time: 30 min Lorem Ipsum is simply dummy text of the printing…</p>
+                                    </div>
+                                    <div class="col-2  ">
+                                        <div style="border-bottom: 2px dotted rgb(117, 115, 115);  margin-top: 30px;"></div>
+
+                                        <div style="margin-top: 80px;">
+                                            <a class="new-icon-items bg-warning" href="#"><i class="bi bi-cart-plus-fill new-icon-items-one "></i></a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-between mt-5">
+                            <div class="col-md-4  ">
+                                <div class="overflow-hidden mb-3"> <img src="images/pexels-samer-daboul-2233729-300x300.jpg " class="img-fluid w-100 menu-items-food "></div>
+                            </div>
+
+                            <div class="col-md-8">
+
+                                <div class="row d-flex justify-content-between ">
+
+                                    <div class="col-10">
+                                        <p class="h6 fw-bold">LAMB-BEEF KOFKA SKEWERS WITH TZATZIKI</p>
+                                        <span style="font-weight: 700;" class="text-decoration-line-through me-2">$25.00</span>
+                                        <span style="font-weight: 700;">$18.00</span>
+                                        <p class="content mt-2" style="color: rgb(112, 111, 111);">Preparing time: 15 min Delivery time: 30 min Lorem Ipsum is simply dummy text of the printing…</p>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <div style="border-bottom: 2px dotted rgb(117, 115, 115);  margin-top: 30px;">
+
+                                        </div>
+                                        <div style="margin-top: 80px;">
+                                            <a class="new-icon-items bg-warning" href="#"><i class="bi bi-cart-plus-fill new-icon-items-one "></i></a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- new section start -->
+        <section class="container my-5 py-5">
+            <div class="row d-flex justify-content-between  ">
+
+                <div class="col-md-4 mb-4 overflow-hidden  ">
+                    <img src="images/fine-dining-food (1).jpg" class="img-fluid w-100 menu-items-food  ">
+                </div>
+                <div class="col-md-4 mb-4 overflow-hidden">
+                    <img src="images/having-lunch-together.jpg" class="img-fluid w-100 menu-items-food">
+                </div>
+                <div class="col-md-4 mb-4 overflow-hidden">
+                    <img src="images/people-having-drink-at-daytime.jpg" class="img-fluid w-100 menu-items-food">
+                </div>
+
+                <div class="col-md-4 mb-4 overflow-hidden">
+                    <img src="images/people-having-lunch.jpg" class="img-fluid w-100 menu-items-food">
+                </div>
+                <div class="col-md-4 mb-4 overflow-hidden">
+                    <img src="images/sort-of-food-on-the-table.jpg" class="img-fluid w-100 menu-items-food">
+                </div>
+                <div class="col-md-4 mb-4 overflow-hidden ">
+                    <img src="images/chef-standing-in-restaurant-kitchen.jpg" class="img-fluid w-100 menu-items-food">
+                </div>
 
             </div>
 
-            <div class="col-md-7">
-                <div class="row d-flex justify-content-between">
-                  <div class="col-md-4  ">
-                   <div class="overflow-hidden mb-3"> <img src="images/pexels-samer-daboul-2233729-300x300.jpg "  class="img-fluid w-100 menu-items-food "></div>
-                  </div>
+        </section>
 
-                  <div class="col-md-8">
-                    
-                    <div class="row d-flex justify-content-between ">
+        <!-- new section start -->
+        <section class="container my-5">
 
-                      <div class="col-10">
-                          <p class="h6 fw-bold">LAMB-BEEF KOFKA SKEWERS WITH TZATZIKI</p>
-                          <span style="font-weight: 700;" class="text-decoration-line-through me-2">$25.00</span>
-                          <span style="font-weight: 700;">$18.00</span>
-                          <p class="content mt-2" style="color: rgb(112, 111, 111);" >Preparing time: 15 min Delivery time: 30 min 
-                            Lorem Ipsum is simply dummy text of the printing…</p>
-                      </div>
-                      <div class="col-2  ">
-                          <div  style="border-bottom: 2px dotted rgb(117, 115, 115);  margin-top: 30px;"></div>
-                          <div style="margin-top: 80px;" >
-                            <a class="new-icon-items bg-warning" href="#"><i class="bi bi-cart-plus-fill new-icon-items-one "></i></a>
-                          </div>
-
-                      </div>
-
-                    </div>
-                  </div> 
-                </div>
-                <div class="row d-flex justify-content-between mt-5">
-                  <div class="col-md-4  ">
-                   <div class="overflow-hidden mb-3"> <img src="images/pexels-samer-daboul-2233729-300x300.jpg "  class="img-fluid w-100 menu-items-food "></div>
-                  </div>
-
-                  <div class="col-md-8">
-                    
-                    <div class="row d-flex justify-content-between ">
-
-                      <div class="col-10">
-                          <p class="h6 fw-bold">
-                            OYSTERS GRILL (5 PIECES)</p>
-                          <span style="font-weight: 700;" class="text-decoration-line-through me-2">$15.00</span>
-                          <span style="font-weight: 700;">$10.00</span>
-                          <p class="content mt-2" style="color: rgb(112, 111, 111);" >Preparing time: 15 min Delivery time: 30 min 
-                            Lorem Ipsum is simply dummy text of the printing…</p>
-                      </div>
-                      <div class="col-2  ">
-                          <div  style="border-bottom: 2px dotted rgb(117, 115, 115);  margin-top: 30px;"></div>
-
-                          <div style="margin-top: 80px;" >
-                            <a class="new-icon-items bg-warning" href="#"><i class="bi bi-cart-plus-fill new-icon-items-one "></i></a>
-                          </div>
-                          
-                      </div>
-
-                    </div>
-                  </div> 
-                </div>
-                <div class="row d-flex justify-content-between mt-5">
-                  <div class="col-md-4  ">
-                   <div class="overflow-hidden mb-3"> <img src="images/pexels-samer-daboul-2233729-300x300.jpg "  class="img-fluid w-100 menu-items-food "></div>
-                  </div>
-
-                  <div class="col-md-8">
-                    
-                    <div class="row d-flex justify-content-between ">
-
-                      <div class="col-10">
-                          <p class="h6 fw-bold">LAMB-BEEF KOFKA SKEWERS WITH TZATZIKI</p>
-                          <span style="font-weight: 700;" class="text-decoration-line-through me-2">$25.00</span>
-                          <span style="font-weight: 700;">$18.00</span>
-                          <p class="content mt-2" style="color: rgb(112, 111, 111);">Preparing time: 15 min Delivery time: 30 min 
-                            Lorem Ipsum is simply dummy text of the printing…</p>
-                      </div>
-                      <div class="col-2 ">
-                          <div  style="border-bottom: 2px dotted rgb(117, 115, 115);  margin-top: 30px;">
-                          
-                          </div>
-                          <div style="margin-top: 80px;" >
-                            <a class="new-icon-items bg-warning" href="#"><i class="bi bi-cart-plus-fill new-icon-items-one "></i></a>
-                          </div>
-                          
-                      </div>
-
-                    </div>
-                  </div> 
-                </div>
-
-            </div>
-
-
-          </div>
-        </div>
-
-      </section>
-
-      <!-- new section start -->
-      <section class="container my-5 py-5">
-        <div class="row d-flex justify-content-between  ">
-
-          <div class="col-md-4 mb-4 overflow-hidden  ">
-            <img src="images/fine-dining-food (1).jpg" class="img-fluid w-100 menu-items-food  ">
-          </div>
-          <div class="col-md-4 mb-4 overflow-hidden">
-            <img src="images/having-lunch-together.jpg" class="img-fluid w-100 menu-items-food">
-          </div>
-          <div class="col-md-4 mb-4 overflow-hidden">
-            <img src="images/people-having-drink-at-daytime.jpg" class="img-fluid w-100 menu-items-food">
-          </div>
-
-          <div class="col-md-4 mb-4 overflow-hidden">
-            <img src="images/people-having-lunch.jpg" class="img-fluid w-100 menu-items-food">
-          </div>
-          <div class="col-md-4 mb-4 overflow-hidden">
-            <img src="images/sort-of-food-on-the-table.jpg" class="img-fluid w-100 menu-items-food">
-          </div>
-          <div class="col-md-4 mb-4 overflow-hidden ">
-            <img src="images/chef-standing-in-restaurant-kitchen.jpg" class="img-fluid w-100 menu-items-food">
-          </div>
-
-        </div>
-
-      </section>
-
-       <!-- new section start -->
-       <section class="container my-5">
-
-        <div class="row d-flex  justify-content-between">
-          <div class="col-md-5">
-            <h3 class="h3 fs-1">Meet The Team Of NYUS</h3>
-            <p class="content py-2 " style="color: rgb(112, 111, 111);">Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non. Leo ut id vel nec nisi odio nisi. Auctor egestas nibh augue enim, ornare blandit.</p>
-            <img src="images/chef-2.jpg" class="w-100 img-fluid mb-3">
-          </div>
-          <div class="col-md-5">
-            <img src="images/chef-1.jpg" class="img-fluid w-100 mb-3">
-            <img src="images/chef-3.jpg" class="img-fluid w-100 ">
-           
-          </div>
-        </div>
-
-       </section>
-
-       <!-- new section start -->
-       <section class="my-5  " style="background-image: url('images/pexels-helena-lopes-696218.jpg'); background-position: center; background-repeat: no-repeat;background-size: cover;  ">
-        <div class="image-overley">
-      <div class="container py-5 ">
-        
-        <p class="content fs-18 text-white text-center fw-bold ">TESTIMONIAL</p>
-        <h3 class="h3 fs-1 text-white text-center fw-bolder mb-5">What They Say</h3>
-
-        <div class="row mt-5 " >
-
-          <div class="col-md-4 me-auto mb-3">
-              
-              <div class="card bg-dark text-light py-5 "  >
-                <div class=" text-center "  >
-                  <img src="images/quotes-avatar-woman.png" class="w-25 img-fluid border border-warning border-5 rounded-circle image-new-card " >
-                </div>
-                <div class="card-body text-center">
-                 <p  class="content">Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.</p>
-                 <h6 class="h6 mt-5">EMMA ODINSON</h6>
-                </div>
-              </div>
-           
-          </div>
-          <div class="col-md-4 me-auto mb-3">
-              
-              <div class="card bg-dark text-light py-5 "  >
-                <div class=" text-center "  >
-                  <img src="images/quotes-avatar-man.png" class="w-25 img-fluid border border-warning border-5 rounded-circle image-new-card " >
-                </div>
-                <div class="card-body text-center">
-                 <p  class="content">Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.</p>
-                 <h6 class="h6 mt-5">DIAN ANNAKIN</h6>
-                </div>
-              </div>
-           
-          </div>
-          <div class="col-md-4 me-auto mb-3">
-              
-              <div class="card bg-dark text-light py-5 "  >
-                <div class=" text-center "  >
-                  <img src="images/quotes-avatar-woman-2.png" class="w-25 img-fluid border border-warning border-5 rounded-circle image-new-card " >
-                </div>
-                <div class="card-body text-center">
-                 <p  class="content">Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.</p>
-                 <h6 class="h6 mt-5">KYLE SMITH</h6>
-                </div>
-              </div>
-           
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-    
-      </section>
-
-      <!-- form section code -->
-
-      <section class="container">
-        <div class="row">
-            <div class="col-md-8">
-
-              <form class="row g-2 needs-validation" novalidate>
-
-
-                <!-- first Name Code -->
-            
-                <div class="col-md-4 ">
-                  <label for="validationCustom01" class="form-label fw-bold fs-5">First Name</label>
-            
-                  <div class="form-floating">
-                  <input type="text" class="form-control" id="validationCustom01"  placeholder="Hello" required>
-                  <label for="validationCustom01" class="form-label">First name</label>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                </div>
-            
-            <!-- last Name code -->
-            
-            <div class="col-md-4 ">
-              <label for="validationCustom02" class="form-label fw-bold fs-5">Last Name</label>
-            
-              <div class="form-floating">
-              <input type="text" class="form-control" id="validationCustom02"  placeholder="Hello" required>
-              <label for="validationCustom02" class="form-label">Last Name</label>
-              <div class="valid-feedback">
-                Looks good!
-              </div>
-            </div>
-            </div>
-            
-            
-            
-            <!-- user name code  -->
-            
-                <div class="col-md-4">
-                  <label for="validationCustomUsername" class="form-label fw-bold fs-5">User Name</label>
-                  <div class="input-group has-validation form-floating">
-                    <span class="input-group-text" id="inputGroupPrepend">#</span>
-                    <input type="text" class="form-control ps-4" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Hello" required>
-                    <label for="validationCustomUsername" class="form-label ms-5" style="z-index: 99;">User Name</label>
-                    <div class="invalid-feedback">
-                      Please choose a username.
-                    </div>
-                  </div>
-                </div>
-            
-                  <!-- email address code  -->
-                  <div class="col-md-12">
-            
-                    <label for="validationEmail" class="form-label fw-bold fs-5">Email</label>
-            
-                    <div class="form-floating input-group">
-                    <input type="email" class="form-control" id="validationEmail"  placeholder="Hello" required>
-                    <label for="validationEmail" class="form-label" style="z-index: 99;">Input Your Email </label>
-                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <div class="valid-feedback">
-                      Looks good!
-                    </div>
-                  </div>
-            
-            
-                  </div>
-            
-            
-                  <!-- password code here -->
-                  <div class="col-md-6">
-                    <label for="validationpassword" class="form-label fw-bold fs-5">Password</label>
-            
-                <div class="form-floating">
-              <input type="password" class="form-control" id="validationpassword"  placeholder="Hello" required>
-              <label for="validationpassword" class="form-label">Input Your Password</label>
-              <div class="valid-feedback">
-                Looks good!
-              </div>
-              </div>
-            
-             </div>
-                  <!--re-type password code here -->
-                  <div class="col-md-6">
-                    <label for="validationrepassword" class="form-label fw-bold fs-5">Re-type Password</label>
-            
-                <div class="form-floating">
-              <input type="password" class="form-control" id="validationrepassword"  placeholder="Hello" required>
-              <label for="validationrepassword" class="form-label">Input Your Password Again</label>
-              <div class="valid-feedback">
-                Looks good!
-              </div>
-              </div>
-            
-             </div>
-            
-            
-            
-            
-            
-            
-            
-            
-             <!-- city code here -->
-            
+            <div class="row d-flex  justify-content-between">
                 <div class="col-md-5">
-                  <label for="validationcity" class="form-label fw-bold fs-5">City</label>
-                  <div class="form-floating">
-                  <input type="text" class="form-control" id="validationcity"  placeholder="Hello" required>
-                  <label for="validationcity" class="form-label">Input Your City</label>
-                  <div class="invalid-feedback">
-                    Please provide a valid city.
-                  </div>
+                    <h3 class="h3 fs-1">Meet The Team Of NYUS</h3>
+                    <p class="content py-2 " style="color: rgb(112, 111, 111);">Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non. Leo ut id vel nec nisi odio nisi. Auctor egestas nibh augue enim, ornare blandit.</p>
+                    <img src="images/chef-2.jpg" class="w-100 img-fluid mb-3">
                 </div>
+                <div class="col-md-5">
+                    <img src="images/chef-1.jpg" class="img-fluid w-100 mb-3">
+                    <img src="images/chef-3.jpg" class="img-fluid w-100 ">
+
                 </div>
-            
-             <!-- state code here -->
-            
-                <div class="col-md-4">
-                  <label for="validationstate"  class="form-label fw-bold fs-5">State</label>
-            
-                  <div class="form-floating">
-                  <select class="form-select" id="validationstate" required>
-                    <option selected disabled value="">choose Your State</option>
+            </div>
+
+        </section>
+
+        <!-- new section start -->
+        <section class="mt-5  " style="background-image: url('images/pexels-helena-lopes-696218.jpg'); background-position: center; background-repeat: no-repeat;background-size: cover;  ">
+            <div class="image-overley">
+                <div class="container py-5 ">
+
+                    <p class="content fs-18 text-white text-center fw-bold ">TESTIMONIAL</p>
+                    <h3 class="h3 fs-1 text-white text-center fw-bolder mb-5">What They Say</h3>
+
+                    <div class="row mt-5 ">
+
+                        <div class="col-md-4 me-auto mb-3">
+
+                            <div class="card bg-dark text-light py-5 ">
+                                <div class=" text-center ">
+                                    <img src="images/quotes-avatar-woman.png" class="w-25 img-fluid border border-warning border-5 rounded-circle image-new-card ">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p class="content">Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.</p>
+                                    <h6 class="h6 mt-5">EMMA ODINSON</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 me-auto mb-3">
+
+                            <div class="card bg-dark text-light py-5 ">
+                                <div class=" text-center ">
+                                    <img src="images/quotes-avatar-man.png" class="w-25 img-fluid border border-warning border-5 rounded-circle image-new-card ">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p class="content">Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.</p>
+                                    <h6 class="h6 mt-5">DIAN ANNAKIN</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 me-auto mb-3">
+
+                            <div class="card bg-dark text-light py-5 ">
+                                <div class=" text-center ">
+                                    <img src="images/quotes-avatar-woman-2.png" class="w-25 img-fluid border border-warning border-5 rounded-circle image-new-card ">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p class="content">Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.</p>
+                                    <h6 class="h6 mt-5">KYLE SMITH</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- form section code -->
+
+        <section style=" background-color: #E9ECEF; " class="py-5">
+
+            <div class="container">
+                <p class="content fs-18 content text-center fw-bold mt-5 " style="color: rgb(112, 111, 111);">CONTACT FORM</p>
+                <div class="row d-flex text-center align-items-center justify-content-center">
+
+                    <div class="col-md-3">
+                        <hr style="background-color: rgb(112, 111, 111);">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="h3 fs-1   text-center fw-bolder">Join Our Newsletter Now</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <hr style="background-color: rgb(112, 111, 111);">
+                    </div>
+
+                </div>
+
+
+
+                <div class="row mt-5">
+                    <div class="col-md-8">
+
+                        <form class="row g-2 needs-validation" novalidate>
+
+
+                            <!-- first Name Code -->
+
+                            <div class="col-md-4 ">
+                                <label for="validationCustom01" class="form-label fw-bold fs-5">First Name</label>
+
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="validationCustom01" placeholder="Hello" required>
+                                    <label for="validationCustom01" class="form-label">First name</label>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- last Name code -->
+
+                            <div class="col-md-4 ">
+                                <label for="validationCustom02" class="form-label fw-bold fs-5">Last Name</label>
+
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="validationCustom02" placeholder="Hello" required>
+                                    <label for="validationCustom02" class="form-label">Last Name</label>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- user name code  -->
+
+                            <div class="col-md-4">
+                                <label for="validationCustomUsername" class="form-label fw-bold fs-5">User Name</label>
+                                <div class="input-group has-validation form-floating">
+                                    <span class="input-group-text" id="inputGroupPrepend">#</span>
+                                    <input type="text" class="form-control ps-4" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Hello" required>
+                                    <label for="validationCustomUsername" class="form-label ms-5" style="z-index: 99;">User Name</label>
+                                    <div class="invalid-feedback">
+                                        Please choose a username.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- email address code  -->
+                            <div class="col-md-12">
+
+                                <label for="validationEmail" class="form-label fw-bold fs-5">Email</label>
+
+                                <div class="form-floating input-group">
+                                    <input type="email" class="form-control" id="validationEmail" placeholder="Hello" required>
+                                    <label for="validationEmail" class="form-label" style="z-index: 99;">Input Your Email </label>
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                            <!-- password code here -->
+                            <div class="col-md-6">
+                                <label for="validationpassword" class="form-label fw-bold fs-5">Password</label>
+
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="validationpassword" placeholder="Hello" required>
+                                    <label for="validationpassword" class="form-label">Input Your Password</label>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--re-type password code here -->
+                            <div class="col-md-6">
+                                <label for="validationrepassword" class="form-label fw-bold fs-5">Re-type Password</label>
+
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="validationrepassword" placeholder="Hello" required>
+                                    <label for="validationrepassword" class="form-label">Input Your Password Again</label>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+
+
+                            <!-- city code here -->
+
+                            <div class="col-md-5">
+                                <label for="validationcity" class="form-label fw-bold fs-5">City</label>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="validationcity" placeholder="Hello" required>
+                                    <label for="validationcity" class="form-label">Input Your City</label>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- state code here -->
+
+                            <div class="col-md-4">
+                                <label for="validationstate" class="form-label fw-bold fs-5">State</label>
+
+                                <div class="form-floating ">
+                                    <select class="form-select  " id="validationstate" required>
+                    <option selected disabled value="" >choose Your State</option>
                     <option>New York</option>
                     <option>New Jersey</option>
                     <option>Tronto</option>
                     <option>New York</option>
                     <option>New York</option>
                   </select>
-                  <div class="invalid-feedback">
-                    Please select a valid state.
-                  </div>
-                </div>
-                </div>
-            
-                <!-- zip code here -->
-            
-                <div class="col-md-3">
-                  <label for="validationzip" class="form-label fw-bold fs-5">Zip</label>
-                  <div class="form-floating">
-                  <input type="text" class="form-control" id="validationzip"  placeholder="Hello" required>
-                  <label for="validationzip" class="form-label">Input Your Zip Code</label>
-                  <div class="invalid-feedback">
-                    Please provide a valid city.
-                  </div>
-                </div>
-                </div>
-            
-            
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
+                                    <div class="invalid-feedback">
+                                        Please select a valid state.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- zip code here -->
+
+                            <div class="col-md-3">
+                                <label for="validationzip" class="form-label fw-bold fs-5">Zip</label>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="validationzip" placeholder="Hello" required>
+                                    <label for="validationzip" class="form-label">Input Your Zip Code</label>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
                       Agree to terms and conditions
                     </label>
-                    <div class="invalid-feedback">
-                      You must agree before submitting.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="btn btn-primary" type="submit">Submit form</button>
-                </div>
-              </form>
-            
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit">Submit form</button>
+                            </div>
+                        </form>
 
+
+
+
+
+
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <img src="images/Wavy_Tech-17_Single-04-fotor-bg-remover-2023061932920.png" class="img-fluid w-100 h-100 ">
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- new section start -->
+        <section class="container mt-5 py-5" style="margin-bottom: 200px;">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h3 class="h3 fs-1  text-center fw-bolder my-2">Reservation</h3>
+                    <p class="content py-2 text-center" style="color: rgb(112, 111, 111);">Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non. Leo ut id vel nec nisi odio nisi. Auctor egestas nibh augue enim, ornare blandit.</p>
+                    <button class="book-button-style px-3 py-2 mb-5">BOOK A TABLE NOW</button>
+                    <p class="mt-5 fw-bold">TELEPHONE RESERVATIONS</p>
+                    <p class="new-content-number fw-bolder fs-1">12 34 56 7890</p>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer class="bg-dark">
+        <div class="d-flex justify-content-end mb-1">
+            <img src="images/cake-image-overlay.png" class="img-fluid footer-image ">
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 mb-3">
+                    <img src="images/nyus-deli-restaurant-logo.svg" class="img-fluid w-50">
+                    <p class="content text-light mt-4 mb-3">Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis adipiscing donec. Et ut morbi magna quis purus aliquet.</p>
+
+                    <p>
+                        <a href="#" class="me-2"><i class="bi bi-facebook all-soicl-icon" ></i></a>
+                        <a href="#" class="mx-2"><i class="bi bi-twitter all-soicl-icon"></i></a>
+                        <a href="#" class="mx-2"><i class="bi bi-instagram all-soicl-icon"></i></a>
+                        <a href="#" class="mx-2"><i class="bi bi-linkedin all-soicl-icon"></i></a>
+                        <a href="#" class="mx-2"><i class="bi bi-youtube all-soicl-icon"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h4 class="h4 text-light fw-bolder fs-2">Our Location</h4>
+                    <p class="text-light mt-4">3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA 1 234 567 890</p>
+                    <p>
+                        <a href="#" class="text-decoration-none new-ancor-tag">
+
+                            <span class="me-2"><i class="bi bi-geo-alt-fill  get-derection"></i></span>
+                            <span class=" get-derection">Get Direction</span>
+
+
+                        </a>
+                    </p>
+
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h4 class="h4 text-light fw-bolder fs-2">Our Menu</h4>
+
+
+                    <ul class=" text-start unorder-item-list my-4">
+                        <li class="text-light list-type-none"><a class="" href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Menu Item</a></li>
+                        <li><a href="">Blog</a></li>
+
+                    </ul>
+
+
+                </div>
+
+
+                <div class="col-md-3 mb-3">
+                    <h4 class="h4 text-light fw-bolder fs-2">Our Location</h4>
+
+                    <p class="mt-4">
+
+                        <span class="me-1  "><i class="bi bi-clock text-light  fs-5 bg-warning rounded-circle px-2 py-1 text-center"></i></span>
+                        <span class="text-light ">Sunday to Wednesday
+
+                   <p class="text-light ms-5">9AM - 10.30PM</p> 
+                 
+                  </span>
+
+                    </p>
+                    <p class="my-4">
+
+                        <span class="me-1  "><i class="bi bi-clock text-light  fs-5 bg-warning rounded-circle px-2 py-1 text-center"></i></span>
+                        <span class="text-light ">Sunday to Wednesday
+
+                   <p class="text-light ms-5">9AM - 10.30PM</p> 
+                 
+                  </span>
+
+                    </p>
+
+                    <button class="reservation-button-style px-3 py-2 mb-5">RESERVATION</button>
+
+                </div>
 
 
 
 
 
             </div>
+        </div>
 
+        <div>
+            <hr class=" bg-light ">
 
-
-
-
+        </div>
+        <div class="container py-3">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-3  ">
+                    <p class="text-light">Copyright © 2023 My Blog</p>
+                </div>
+                <div class="col-md-3  text-md-end">
+                    <p class="text-light">Powered by My Blog</p>
+                </div>
+            </div>
 
         </div>
 
-
-
-
-      </section>
-
-      <!-- new section start -->
-      <section class="container mt-5 py-5" style="margin-bottom: 200px;">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-7 text-center">
-        <h3 class="h3 fs-1  text-center fw-bolder my-2">Reservation</h3>
-        <p class="content py-2 text-center" style="color: rgb(112, 111, 111);">Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non. Leo ut id vel nec nisi odio nisi. Auctor egestas nibh augue enim, ornare blandit.</p>
-        <button class="book-button-style px-3 py-2 mb-5">BOOK A TABLE NOW</button>
-        <p class="mt-5 fw-bold">TELEPHONE RESERVATIONS</p>
-        <p class="new-content-number fw-bolder fs-1">12 34 56 7890</p>
-      </div>
-      </div>
-      </section>
-
-      
-       
-    </main>
-
-    <footer  class="bg-dark">
-      <div class="d-flex justify-content-end mb-1">
-        <img src="images/cake-image-overlay.png" class="img-fluid footer-image " >
-      </div>
-      <div class="container">
-        <div class="row">
-
-        <div class="col-md-3 mb-3">
-          <img src="images/nyus-deli-restaurant-logo.svg" class="img-fluid w-50">
-          <p class="content text-light mt-4 mb-3">Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis adipiscing donec. Et ut morbi magna quis purus aliquet.</p>
-
-          <p >
-            <a href="#" class="me-2"><i class="bi bi-facebook all-soicl-icon" ></i></a>
-            <a href="#" class="mx-2" ><i class="bi bi-twitter all-soicl-icon"></i></a>
-            <a href="#" class="mx-2"><i class="bi bi-instagram all-soicl-icon"></i></a>
-           <a href="#" class="mx-2"><i class="bi bi-linkedin all-soicl-icon"></i></a>
-            <a href="#" class="mx-2"><i class="bi bi-youtube all-soicl-icon"></i></a>
-          </p>
-        </div>
-          <div class="col-md-3 mb-3">
-            <h4 class="h4 text-light fw-bolder fs-2">Our Location</h4>
-            <p class="text-light mt-4">3 E 19th St, 123 Fifth Avenue,
-              NY 10160, New York, USA
-              1 234 567 890</p>
-              <p>
-               <a href="#" class="text-decoration-none new-ancor-tag">
-                
-                  <span class="me-2"><i class="bi bi-geo-alt-fill  get-derection"></i></span>
-                  <span class=" get-derection">Get Direction</span>
-                
-
-               </a>
-              </p>
-
-          </div>
-          <div class="col-md-3 mb-3">
-            <h4 class="h4 text-light fw-bolder fs-2">Our Menu</h4>
-            
-              
-               <ul class=" text-start unorder-item-list my-4">
-                  <li  class="text-light list-type-none"><a class="" href="">Home</a></li>
-                  <li><a href="">About us</a></li>
-                  <li><a href="">Contact</a></li>
-                  <li><a href="">Menu Item</a></li>
-                  <li><a href="">Blog</a></li>
-
-               </ul>
-              
-
-          </div>
-
-
-          <div class="col-md-3 mb-3">
-            <h4 class="h4 text-light fw-bolder fs-2">Our Location</h4>
-          
-              <p class="mt-4">
-
-                  <span class="me-1  "><i class="bi bi-clock text-light  fs-5 bg-warning rounded-circle px-2 py-1 text-center"></i></span>
-                  <span class="text-light ">Sunday to Wednesday
-
-                   <p class="text-light ms-5">9AM - 10.30PM</p> 
-                 
-                  </span>
-                
-              </p>
-              <p class="my-4">
-
-                <span class="me-1  "><i class="bi bi-clock text-light  fs-5 bg-warning rounded-circle px-2 py-1 text-center"></i></span>
-                  <span class="text-light ">Sunday to Wednesday
-
-                   <p class="text-light ms-5">9AM - 10.30PM</p> 
-                 
-                  </span>
-                
-              </p>
-
-              <button class="reservation-button-style px-3 py-2 mb-5">RESERVATION</button>
-
-          </div>
-
-
-
-
-
-      </div>
-    </div>
-
-      <div >
-        <hr class=" bg-light ">
-
-      </div>
-      <div class="container py-3">
-      <div class="row d-flex justify-content-between">
-        <div class="col-md-3  ">
-          <p class="text-light">Copyright © 2023 My Blog</p>
-        </div>
-        <div class="col-md-3  text-md-end">
-          <p class="text-light">Powered by My Blog</p>
-        </div>
-      </div>
-
-    </div>
-      
 
     </footer>
 
@@ -832,37 +863,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 
-<script>
-
-// form javascript code here
-
-
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-  'use strict'
-
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation')
-
-  // Loop over them and prevent submission
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-
-        form.classList.add('was-validated')
-      }, false)
-    })
-})()
+    <script>
+        // form javascript code here
 
 
-</script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
 
 
 
 
-  </body>
+</body>
+
 </html>
